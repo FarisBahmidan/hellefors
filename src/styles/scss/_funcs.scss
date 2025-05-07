@@ -1,0 +1,4 @@
+@function size($size){
+    @return max(#{$size}vw, #{$size}rem)
+}
+
